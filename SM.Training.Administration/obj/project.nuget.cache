@@ -1,0 +1,12 @@
+{
+  "version": 2,
+  "dgSpecHash": "RzJjL/hfGn4q2YyCEl2Op7Thd3Yg+NUq7a6rIy8MLgfCtC6RIjUpLXPRWP5NhzAaXzDWiH9cYOlJqqlG1U+JGQ==",
+  "success": true,
+  "projectFilePath": "D:\\SM.Training\\SM.Training.Administration\\SM.Training.Administration.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\Admin\\.nuget\\packages\\microsoft.extensions.configuration.abstractions\\6.0.0\\microsoft.extensions.configuration.abstractions.6.0.0.nupkg.sha512",
+    "C:\\Users\\Admin\\.nuget\\packages\\microsoft.extensions.primitives\\6.0.0\\microsoft.extensions.primitives.6.0.0.nupkg.sha512",
+    "C:\\Users\\Admin\\.nuget\\packages\\system.runtime.compilerservices.unsafe\\6.0.0\\system.runtime.compilerservices.unsafe.6.0.0.nupkg.sha512"
+  ],
+  "logs": []
+}

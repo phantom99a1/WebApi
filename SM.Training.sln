@@ -1,0 +1,66 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.31702.278
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SM.Training.Api", "SM.Training.Api\SM.Training.Api.csproj", "{73A006C8-0419-4353-9164-35C8B5C6051E}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SM.Training.TestConsole", "SM.Training.TestConsole\SM.Training.TestConsole.csproj", "{90B09301-CD24-492A-B0F5-E85695DAA540}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SM.Training.Common", "SM.Training.Common\SM.Training.Common.csproj", "{2A186CBC-61B3-4BBA-BD9F-D8A6953D9E6F}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SM.Training.Utils", "SM.Training.Utils\SM.Training.Utils.csproj", "{FFBB4956-FD82-45E7-A48C-AF72FEE4C1A0}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Lib", "Lib", "{15B1D76E-A61F-4D65-8387-1EF2DEAC4B2D}"
+	ProjectSection(SolutionItems) = preProject
+		Lib\Oracle.ManagedDataAccess.dll = Lib\Oracle.ManagedDataAccess.dll
+		Lib\SMCB.dll = Lib\SMCB.dll
+		Lib\SMCD.dll = Lib\SMCD.dll
+		Lib\SMCO.dll = Lib\SMCO.dll
+		Lib\SMCS.dll = Lib\SMCS.dll
+		Lib\SMCU.dll = Lib\SMCU.dll
+		Lib\SMK.dll = Lib\SMK.dll
+	EndProjectSection
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SM.Training.SharedComponent", "SM.Training.SharedComponent\SM.Training.SharedComponent.csproj", "{25136812-6778-4161-ABD1-4D035B6EA396}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SM.Training.Administration", "SM.Training.Administration\SM.Training.Administration.csproj", "{1A5998AE-DA64-468B-A4C6-564B706E267A}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{73A006C8-0419-4353-9164-35C8B5C6051E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{73A006C8-0419-4353-9164-35C8B5C6051E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{73A006C8-0419-4353-9164-35C8B5C6051E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{73A006C8-0419-4353-9164-35C8B5C6051E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{90B09301-CD24-492A-B0F5-E85695DAA540}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{90B09301-CD24-492A-B0F5-E85695DAA540}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{90B09301-CD24-492A-B0F5-E85695DAA540}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{90B09301-CD24-492A-B0F5-E85695DAA540}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2A186CBC-61B3-4BBA-BD9F-D8A6953D9E6F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2A186CBC-61B3-4BBA-BD9F-D8A6953D9E6F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2A186CBC-61B3-4BBA-BD9F-D8A6953D9E6F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2A186CBC-61B3-4BBA-BD9F-D8A6953D9E6F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{FFBB4956-FD82-45E7-A48C-AF72FEE4C1A0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FFBB4956-FD82-45E7-A48C-AF72FEE4C1A0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FFBB4956-FD82-45E7-A48C-AF72FEE4C1A0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FFBB4956-FD82-45E7-A48C-AF72FEE4C1A0}.Release|Any CPU.Build.0 = Release|Any CPU
+		{25136812-6778-4161-ABD1-4D035B6EA396}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{25136812-6778-4161-ABD1-4D035B6EA396}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{25136812-6778-4161-ABD1-4D035B6EA396}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{25136812-6778-4161-ABD1-4D035B6EA396}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1A5998AE-DA64-468B-A4C6-564B706E267A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1A5998AE-DA64-468B-A4C6-564B706E267A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1A5998AE-DA64-468B-A4C6-564B706E267A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1A5998AE-DA64-468B-A4C6-564B706E267A}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {07C56170-72F4-4625-BBB1-3040CC42FD7C}
+	EndGlobalSection
+EndGlobal

@@ -1,0 +1,43 @@
+<Project Sdk="Microsoft.NET.Sdk.Web">
+
+  <PropertyGroup>
+    <TargetFramework>net5.0</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Microsoft.AspNetCore.Authentication.JwtBearer" Version="3.1.4" />
+    <PackageReference Include="Microsoft.AspNetCore.Mvc.NewtonsoftJson" Version="5.0.17" />
+    <PackageReference Include="Microsoft.Extensions.DependencyInjection.Abstractions" Version="6.0.0" />
+    <PackageReference Include="SoapCore" Version="1.1.0.13" />
+    <PackageReference Include="Swashbuckle.AspNetCore" Version="5.6.3" />
+    <PackageReference Include="System.IdentityModel.Tokens.Jwt" Version="5.5.0" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Folder Include="ControllerPublics\" />
+    <Folder Include="Controllers\" />
+    <Folder Include="ControllerWebs\Administration\" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\SM.Training.Administration\SM.Training.Administration.csproj" />
+    <ProjectReference Include="..\SM.Training.SharedComponent\SM.Training.SharedComponent.csproj" />
+    <ProjectReference Include="..\SM.Training.Utils\SM.Training.Utils.csproj" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Reference Include="SMCB">
+      <HintPath>..\Lib\SMCB.dll</HintPath>
+    </Reference>
+    <Reference Include="SMCD">
+      <HintPath>..\Lib\SMCD.dll</HintPath>
+    </Reference>
+    <Reference Include="SMCU">
+      <HintPath>..\Lib\SMCU.dll</HintPath>
+    </Reference>
+    <Reference Include="SMK">
+      <HintPath>..\Lib\SMK.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+
+</Project>

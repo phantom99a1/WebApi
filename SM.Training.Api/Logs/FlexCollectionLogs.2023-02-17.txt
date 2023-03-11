@@ -1,0 +1,34 @@
+
+2023-02-17 11:40:45:7662: Không có file config lấy từ configmap
+2023-02-17 11:40:45:7701: Lấy file config appsettings.json
+2023-02-17 11:40:45:7707: ConfigFile Map: appsettings.json
+2023-02-17 11:42:32:3214: Không có file config lấy từ configmap
+2023-02-17 11:42:32:3230: Lấy file config appsettings.json
+2023-02-17 11:42:32:3235: ConfigFile Map: appsettings.json
+2023-02-17 11:43:37:1989: Không có file config lấy từ configmap
+2023-02-17 11:43:37:2005: Lấy file config appsettings.json
+2023-02-17 11:43:37:2009: ConfigFile Map: appsettings.json
+2023-02-17 11:55:43:7589: Không có file config lấy từ configmap
+2023-02-17 11:55:43:7614: Lấy file config appsettings.json
+2023-02-17 11:55:43:7637: ConfigFile Map: appsettings.json
+2023-02-17 01:45:02:4141: Không có file config lấy từ configmap
+2023-02-17 01:45:02:4196: Lấy file config appsettings.json
+2023-02-17 01:45:02:4200: ConfigFile Map: appsettings.json
+2023-02-17 01:50:02:8893: Không có file config lấy từ configmap
+2023-02-17 01:50:02:8929: Lấy file config appsettings.json
+2023-02-17 01:50:02:8934: ConfigFile Map: appsettings.json
+2023-02-17 01:53:12:1833: Không có file config lấy từ configmap
+2023-02-17 01:53:12:1849: Lấy file config appsettings.json
+2023-02-17 01:53:12:1900: ConfigFile Map: appsettings.json
+2023-02-17 01:54:08:7147: Không có file config lấy từ configmap
+2023-02-17 01:54:08:7162: Lấy file config appsettings.json
+2023-02-17 01:54:08:7172: ConfigFile Map: appsettings.json
+2023-02-17 02:45:41:3687: Không có file config lấy từ configmap
+2023-02-17 02:45:41:3703: Lấy file config appsettings.json
+2023-02-17 02:45:41:3708: ConfigFile Map: appsettings.json
+2023-02-17 05:31:38:9783: Không có file config lấy từ configmap
+2023-02-17 05:31:38:9801: Lấy file config appsettings.json
+2023-02-17 05:31:38:9806: ConfigFile Map: appsettings.json
+2023-02-17 05:32:37:0078: Không có file config lấy từ configmap
+2023-02-17 05:32:37:0099: Lấy file config appsettings.json
+2023-02-17 05:32:37:0104: ConfigFile Map: appsettings.json
