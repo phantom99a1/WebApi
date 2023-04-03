@@ -71,7 +71,9 @@ namespace SM.Training.SharedComponent.Entities.Administrations
             set { _GENDER = value; NotifyPropertyChanged(C_GENDER); }
         }
 
-        public const string C_DELETED = "DELETED"; // 
+        
+
+        public const string C_DELETED = "DELETED"; 
         private bool? _DELETED;
         [PropertyEntity(C_DELETED, false)]
         public bool? Deleted
@@ -83,7 +85,7 @@ namespace SM.Training.SharedComponent.Entities.Administrations
         public const string C_VERSION = "VERSION"; // 
         private int? _VERSION;
         [PropertyEntity(C_VERSION, false)]
-        public int? Version
+        public int? VERSION
         {
             get { return _VERSION; }
             set { _VERSION = value; NotifyPropertyChanged(C_VERSION); }
@@ -136,23 +138,23 @@ namespace SM.Training.SharedComponent.Entities.Administrations
 
         #region Clone
 
+        /// <summary>
+        /// Chỉ dùng khi nhận dữ liệu từ client
+        /// </summary>
+        /// <returns>
+        /// Trả ra dữ liệu đã được loại bỏ các thuộc tính không cho phép
+        /// </returns>
         public Duatpt_Employee CloneToInsert()
         {
             Duatpt_Employee newItem = new Duatpt_Employee();
-
+            newItem.Employee_ID = this.Employee_ID;
             newItem.User_Name = this.User_Name;
             newItem.Name = this.Name;
             newItem.Address = this.Address;
             newItem.Phone_Number = this.Phone_Number;
-
-            if (this.DOB is null) newItem.Dob = "Chưa nhập ngày sinh";
-            else newItem.Dob = this.DOB.Value.ToString("dd/MM/yyyy");
-
-            if (this.Gender.ToString() is null) newItem.GENDER_NAME = "Chưa nhập giới tính";
-            else if (this.Gender == 1) newItem.GENDER_NAME = "Nam";
-            else if (this.Gender == 2) newItem.GENDER_NAME = "Nữ";
-            else newItem.GENDER_NAME = "Khác";
-            
+            newItem.Gender = this.Gender;
+            newItem.DOB = this.DOB;
+            newItem.VERSION = this.VERSION;
             return newItem;
         }
 
@@ -165,17 +167,9 @@ namespace SM.Training.SharedComponent.Entities.Administrations
             newItem.Name = this.Name;
             newItem.Address = this.Address;
             newItem.Phone_Number = this.Phone_Number;
-            if (this.DOB is null) newItem.Dob = "Chưa nhập ngày sinh";
-            else newItem.Dob = this.DOB.Value.ToString("dd/MM/yyyy");
-            if (this.Gender.ToString() is null) newItem.GENDER_NAME = "Chưa nhập giới tính";
-            else
-            {
-                if (this.Gender == 1) newItem.GENDER_NAME = "Nam";
-                if (this.Gender == 2) newItem.GENDER_NAME = "Nữ";
-                if (this.Gender == 0) newItem.GENDER_NAME = "Khác";
-
-            }
-            
+            newItem.DOB =  this.DOB;
+            newItem.Gender = this.Gender;            
+            newItem.VERSION = this.VERSION;
 
             return newItem;
         }

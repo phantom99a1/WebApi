@@ -8,9 +8,9 @@ namespace SM.Training.SharedComponent.Entities.Administrations
 {
     public class Filter
     {
-        public int employee_id { get; set; }
-        public string username { get; set; }
-        public string name { get; set; }
-        public int version { get; set; }
+        public int Employee_ID { get; set; }
+        public string User_Name { get; set; }
+        public string Name { get; set; }
+        public int Version { get; set; }
     }
 }

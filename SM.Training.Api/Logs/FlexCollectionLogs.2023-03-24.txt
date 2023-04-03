@@ -1,0 +1,40 @@
+
+2023-03-24 08:44:49:8487: Không có file config lấy từ configmap
+2023-03-24 08:44:49:8545: Lấy file config appsettings.json
+2023-03-24 08:44:49:8552: ConfigFile Map: appsettings.json
+2023-03-24 10:34:44:0100: Không có file config lấy từ configmap
+2023-03-24 10:34:44:0122: Lấy file config appsettings.json
+2023-03-24 10:34:44:0127: ConfigFile Map: appsettings.json
+2023-03-24 10:42:02:0768: Không có file config lấy từ configmap
+2023-03-24 10:42:02:0797: Lấy file config appsettings.json
+2023-03-24 10:42:02:0804: ConfigFile Map: appsettings.json
+2023-03-24 10:46:52:0763: Không có file config lấy từ configmap
+2023-03-24 10:46:52:0781: Lấy file config appsettings.json
+2023-03-24 10:46:52:0789: ConfigFile Map: appsettings.json
+2023-03-24 10:49:30:3339: Không có file config lấy từ configmap
+2023-03-24 10:49:30:3572: Lấy file config appsettings.json
+2023-03-24 10:49:30:3583: ConfigFile Map: appsettings.json
+2023-03-24 10:55:08:0903: Không có file config lấy từ configmap
+2023-03-24 10:55:08:0922: Lấy file config appsettings.json
+2023-03-24 10:55:08:0929: ConfigFile Map: appsettings.json
+2023-03-24 10:56:21:6173: Không có file config lấy từ configmap
+2023-03-24 10:56:21:6189: Lấy file config appsettings.json
+2023-03-24 10:56:21:6194: ConfigFile Map: appsettings.json
+2023-03-24 11:11:29:5152: Không có file config lấy từ configmap
+2023-03-24 11:11:29:5174: Lấy file config appsettings.json
+2023-03-24 11:11:29:5180: ConfigFile Map: appsettings.json
+2023-03-24 01:05:15:0137: Không có file config lấy từ configmap
+2023-03-24 01:05:15:0188: Lấy file config appsettings.json
+2023-03-24 01:05:15:0204: ConfigFile Map: appsettings.json
+2023-03-24 03:38:26:0671: Không có file config lấy từ configmap
+2023-03-24 03:38:26:0687: Lấy file config appsettings.json
+2023-03-24 03:38:26:0691: ConfigFile Map: appsettings.json
+2023-03-24 03:42:05:6958: Không có file config lấy từ configmap
+2023-03-24 03:42:05:6971: Lấy file config appsettings.json
+2023-03-24 03:42:05:6976: ConfigFile Map: appsettings.json
+2023-03-24 03:44:02:9888: Không có file config lấy từ configmap
+2023-03-24 03:44:02:9905: Lấy file config appsettings.json
+2023-03-24 03:44:02:9910: ConfigFile Map: appsettings.json
+2023-03-24 03:53:39:5229: Không có file config lấy từ configmap
+2023-03-24 03:53:39:5247: Lấy file config appsettings.json
+2023-03-24 03:53:39:5262: ConfigFile Map: appsettings.json

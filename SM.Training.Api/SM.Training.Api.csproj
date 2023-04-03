@@ -20,6 +20,10 @@
   </ItemGroup>
 
   <ItemGroup>
+    <None Include="..\.editorconfig" Link=".editorconfig" />
+  </ItemGroup>
+
+  <ItemGroup>
     <ProjectReference Include="..\SM.Training.Administration\SM.Training.Administration.csproj" />
     <ProjectReference Include="..\SM.Training.SharedComponent\SM.Training.SharedComponent.csproj" />
     <ProjectReference Include="..\SM.Training.Utils\SM.Training.Utils.csproj" />
