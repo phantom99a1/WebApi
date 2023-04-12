@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "D:\\SM.Training\\SM.Training.TestConsole\\SM.Training.TestConsole.csproj": {}
+    "D:\\SM1.Training\\SM.Training.TestConsole\\SM.Training.TestConsole.csproj": {}
   },
   "projects": {
-    "D:\\SM.Training\\SM.Training.TestConsole\\SM.Training.TestConsole.csproj": {
+    "D:\\SM1.Training\\SM.Training.TestConsole\\SM.Training.TestConsole.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\SM.Training\\SM.Training.TestConsole\\SM.Training.TestConsole.csproj",
+        "projectUniqueName": "D:\\SM1.Training\\SM.Training.TestConsole\\SM.Training.TestConsole.csproj",
         "projectName": "SM.Training.TestConsole",
-        "projectPath": "D:\\SM.Training\\SM.Training.TestConsole\\SM.Training.TestConsole.csproj",
+        "projectPath": "D:\\SM1.Training\\SM.Training.TestConsole\\SM.Training.TestConsole.csproj",
         "packagesPath": "C:\\Users\\Admin\\.nuget\\packages\\",
-        "outputPath": "D:\\SM.Training\\SM.Training.TestConsole\\obj\\",
+        "outputPath": "D:\\SM1.Training\\SM.Training.TestConsole\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\Admin\\AppData\\Roaming\\NuGet\\NuGet.Config",

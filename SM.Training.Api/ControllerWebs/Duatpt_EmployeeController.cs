@@ -7,12 +7,36 @@ using System.Collections.Generic;
 
 namespace SM.Training.Api.ControllerCommons
 {
-    [Route("api/duatpt_employee/")]
+
     [AllowAnonymous]
+    [Route("api/duatpt_employee")]
+
     public class Duatpt_EmployeeController : Controller
+
     {
         [HttpPost]
-        [Route("search")]
+        public EmployeeDTO Duatpt_Employee([FromBody] EmployeeDTO dtoRequest)
+        {
+            string actionName = dtoRequest.ActionName;
+            switch (actionName)
+            {
+                case "search":
+                    return Search(dtoRequest);                    
+                case "detail":
+                    return Detail(dtoRequest);                   
+                case "delete":
+                     return Delete(dtoRequest);                    
+                case "deleteall":
+                   return DeleteAll(dtoRequest);                    
+                case "insert":
+                   return Insert(dtoRequest);                    
+                case "update":
+                   return Update(dtoRequest);                    
+                default:
+                    return GetGender();                    
+            }           
+        }      
+        
         public EmployeeDTO Search([FromBody] EmployeeDTO dtoRequest)
         {
             EmployeeDTO dtoResponse = new EmployeeDTO();
@@ -36,10 +60,8 @@ namespace SM.Training.Api.ControllerCommons
             }
 
             return dtoResponse;
-        }       
-        
-        [HttpPost]
-        [Route("detail")]
+        }
+      
         public EmployeeDTO Detail([FromBody] EmployeeDTO dtoRequest)
         {
             EmployeeDTO dtoResponse = new EmployeeDTO();
@@ -58,9 +80,8 @@ namespace SM.Training.Api.ControllerCommons
             }
             
             return dtoResponse;
-        }
-        [HttpPost]
-        [Route("delete")]
+        }        
+        
         public EmployeeDTO Delete([FromBody] EmployeeDTO emp)
         {
             var Employee = emp.Employee;
@@ -76,10 +97,8 @@ namespace SM.Training.Api.ControllerCommons
                 result.Message = ex.Message;
             }
             return result;
-        }
-
-        [HttpPost]
-        [Route("deleteall")]
+        }        
+        
         public EmployeeDTO DeleteAll([FromBody] EmployeeDTO emp)
         {
             //todo: Không dùng qua Route, chuyển sang Body
@@ -97,10 +116,8 @@ namespace SM.Training.Api.ControllerCommons
                 result.Message = ex.Message;
             }
             return result;
-        }
-
-        [HttpPost]
-        [Route("insert")]
+        }        
+        
         public EmployeeDTO Insert([FromBody] EmployeeDTO emp)
         {
             var Employee = emp.Employee;
@@ -117,10 +134,8 @@ namespace SM.Training.Api.ControllerCommons
             }            
 
             return result;
-        }
-
-        [HttpPost]
-        [Route("update")]
+        }       
+        
         public EmployeeDTO Update([FromBody] EmployeeDTO emp)
         {
             var result = new EmployeeDTO();
@@ -137,8 +152,7 @@ namespace SM.Training.Api.ControllerCommons
 
             return result;
         }
-        [HttpPost]
-        [Route("getgender")]
+       
         public EmployeeDTO GetGender()
         {
             var result = new EmployeeDTO();
@@ -172,7 +186,8 @@ namespace SM.Training.Api.ControllerCommons
 
         public List<Duatpt_Employee_Cert> Employees_Cert { get; set; }
         public List<Duatpt_Employee_Cert> Employees_Cert_Delete { get; set; }
- 
+
+        public string ActionName { get; set; }
 
     }
 }

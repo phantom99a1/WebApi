@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "D:\\SM.Training\\SM.Training.SharedComponent\\SM.Training.SharedComponent.csproj": {}
+    "D:\\SM1.Training\\SM.Training.SharedComponent\\SM.Training.SharedComponent.csproj": {}
   },
   "projects": {
-    "D:\\SM.Training\\SM.Training.SharedComponent\\SM.Training.SharedComponent.csproj": {
+    "D:\\SM1.Training\\SM.Training.SharedComponent\\SM.Training.SharedComponent.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\SM.Training\\SM.Training.SharedComponent\\SM.Training.SharedComponent.csproj",
+        "projectUniqueName": "D:\\SM1.Training\\SM.Training.SharedComponent\\SM.Training.SharedComponent.csproj",
         "projectName": "SM.Training.SharedComponent",
-        "projectPath": "D:\\SM.Training\\SM.Training.SharedComponent\\SM.Training.SharedComponent.csproj",
+        "projectPath": "D:\\SM1.Training\\SM.Training.SharedComponent\\SM.Training.SharedComponent.csproj",
         "packagesPath": "C:\\Users\\Admin\\.nuget\\packages\\",
-        "outputPath": "D:\\SM.Training\\SM.Training.SharedComponent\\obj\\",
+        "outputPath": "D:\\SM1.Training\\SM.Training.SharedComponent\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\Admin\\AppData\\Roaming\\NuGet\\NuGet.Config",

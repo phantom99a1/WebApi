@@ -159,11 +159,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\SM.Training\\SM.Training.Common\\SM.Training.Common.csproj",
+      "projectUniqueName": "D:\\SM1.Training\\SM.Training.Common\\SM.Training.Common.csproj",
       "projectName": "SM.Training.Common",
-      "projectPath": "D:\\SM.Training\\SM.Training.Common\\SM.Training.Common.csproj",
+      "projectPath": "D:\\SM1.Training\\SM.Training.Common\\SM.Training.Common.csproj",
       "packagesPath": "C:\\Users\\Admin\\.nuget\\packages\\",
-      "outputPath": "D:\\SM.Training\\SM.Training.Common\\obj\\",
+      "outputPath": "D:\\SM1.Training\\SM.Training.Common\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\Admin\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -180,8 +180,8 @@
         "net5.0": {
           "targetAlias": "net5.0",
           "projectReferences": {
-            "D:\\SM.Training\\SM.Training.Utils\\SM.Training.Utils.csproj": {
-              "projectPath": "D:\\SM.Training\\SM.Training.Utils\\SM.Training.Utils.csproj"
+            "D:\\SM1.Training\\SM.Training.Utils\\SM.Training.Utils.csproj": {
+              "projectPath": "D:\\SM1.Training\\SM.Training.Utils\\SM.Training.Utils.csproj"
             }
           }
         }

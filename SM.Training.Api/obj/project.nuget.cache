@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "EaIBhJXixbLbXt6ziVjOOIc6dFHfrnBmTgV7K7e3q48DAVzK254Rp92gKOG5dSkGlSjJQwLwN36eLvrkErkLsA==",
+  "dgSpecHash": "cSFQ2mH62kgDLMmm5HftLzkhLzxnWT6XZGVX11toC652JJxGmZG9elBunu80OX/5CP9YDgry351dxPyy1dwKkg==",
   "success": true,
-  "projectFilePath": "D:\\SM.Training\\SM.Training.Api\\SM.Training.Api.csproj",
+  "projectFilePath": "D:\\SM1.Training\\SM.Training.Api\\SM.Training.Api.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Admin\\.nuget\\packages\\microsoft.aspnetcore.authentication.jwtbearer\\3.1.4\\microsoft.aspnetcore.authentication.jwtbearer.3.1.4.nupkg.sha512",
     "C:\\Users\\Admin\\.nuget\\packages\\microsoft.aspnetcore.jsonpatch\\5.0.17\\microsoft.aspnetcore.jsonpatch.5.0.17.nupkg.sha512",

@@ -100,11 +100,6 @@ namespace SM.Training.Administration.Biz
             emp.Updated_By = "System";
             emp.Updated_Dtg = DateTime.Now;
 
-            //01. Chú phải lấy danh sách cert hiện tại trong db
-            // => tìm các bản ghi deleted = cách: Item có trong db nhưng ko có trong emp_certs
-            // => tìm các bản ghi insert : item.Cert_ID == null
-            // => tìm các bản ghi update : item.Cert_ID != null
-
             var listUpdate = new List<Duatpt_Employee_Cert>();
             var listInsert = new List<Duatpt_Employee_Cert>();
             foreach(var item in emp_certs)
@@ -141,7 +136,7 @@ namespace SM.Training.Administration.Biz
            Dictionary<int, string> dic = new Dictionary<int, string>()
            {
                {
-                   3,"Nhập vào giới tính"
+                   0,"Nhập vào giới tính"
                } ,
                {
                    1,"Nam"
@@ -150,7 +145,7 @@ namespace SM.Training.Administration.Biz
                    2,"Nữ"
                },
                {
-                   0,"Khác"
+                   3,"Khác"
                }               
            };
             foreach (KeyValuePair<int, string> kvp in dic)

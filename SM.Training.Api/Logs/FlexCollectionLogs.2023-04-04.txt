@@ -1,0 +1,4 @@
+
+2023-04-04 04:18:06:7241: Không có file config lấy từ configmap
+2023-04-04 04:18:06:7284: Lấy file config appsettings.json
+2023-04-04 04:18:06:7289: ConfigFile Map: appsettings.json

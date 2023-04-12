@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "RzJjL/hfGn4q2YyCEl2Op7Thd3Yg+NUq7a6rIy8MLgfCtC6RIjUpLXPRWP5NhzAaXzDWiH9cYOlJqqlG1U+JGQ==",
+  "dgSpecHash": "L1VSK8z2KyvHbD1gMcKiT2Bt3iqNDFxCjPuO5PyxU4xMdEIi2J1V5EHht55WeIMWgvAnqxS7bw8ftuIiEdpY0A==",
   "success": true,
-  "projectFilePath": "D:\\SM.Training\\SM.Training.Administration\\SM.Training.Administration.csproj",
+  "projectFilePath": "D:\\SM1.Training\\SM.Training.Administration\\SM.Training.Administration.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Admin\\.nuget\\packages\\microsoft.extensions.configuration.abstractions\\6.0.0\\microsoft.extensions.configuration.abstractions.6.0.0.nupkg.sha512",
     "C:\\Users\\Admin\\.nuget\\packages\\microsoft.extensions.primitives\\6.0.0\\microsoft.extensions.primitives.6.0.0.nupkg.sha512",
